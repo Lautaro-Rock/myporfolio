@@ -114,16 +114,24 @@ h2 {
     height: 12rem; 
 }
 
-.card-body {
-    height: 4rem; 
+.card-body-style {
+    height: 4rem;
     display: flex;
-    align-items: center; 
-    justify-content: center; 
+    align-items: center;
+    justify-content: center;
     text-align: center;
     color: white;
-    justify-content: center;
-    background-color: rgba(255, 0, 0, 0.822);
+    background-color: rgba(220, 53, 69, 0.9); /* rojo Bootstrap más suave */
+    border: none;              /* elimina cualquier borde */
+    border-radius: 0 0 0.5rem 0.5rem; /* redondea solo parte inferior */
+    box-shadow: none;          /* elimina sombras si las hubiera */
+    margin: 0;
+    padding: 0.5rem 1rem;
+    overflow: hidden;          /* evita desborde de texto */
+    font-weight: 500;
+    font-size: 1rem;
 }
+
 .sectiontwo{
     color: white;
     margin-top: 0;
@@ -177,14 +185,12 @@ h2 {
 }
 
 .misProyectos p{
-    background-color: black ;
     color: white;
 }
 
 .misProyectos h2{
     background-color: black ;
     color: white;
-    padding: 3rem;
 }
 
 
